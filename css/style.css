@@ -1,5 +1,10 @@
 /*////////////// Fonts //////////////*/
 
+@font-face {
+	font-family: 'Baskerville';
+	src: url(/fonts/Baskerville.ttc)
+}
+
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
@@ -7,7 +12,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +23,85 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 a {
+	text-decoration: none;
+	transition: color 1s
+}
+
+h1 {
+	color: rgb(157, 171, 164);
+	font-family: 'Baskerville';
+	font-size: 5em;
+	margin: 0
+}
+
+h2 {
+	color: rgb(115, 126, 121);
+	font-family: 'Baskerville';
+	font-size: 2.5em;
+}
+
+p {
+	color: rgb(86, 86, 86);
+	font-size: 1em;
+}
+
+.neckle {
+	border: 5px solid rgb(135, 158, 149)
+}
+
+.sites {
+	width: 960px;
+	height: max-content;
+	display: flex
+}
+
+.link {
+	margin: 0 auto 20px;
+}
+
+.sites img {
+	border: 4px solid rgb(203, 203, 203);
+	padding: 1px;
+}
+
+footer {
+	text-align: right;
+	font-size: 0.7em
+}
+
+/*Pseudo selectors   82	130	184	 */
+
+.top a:link {
+	color: rgb(135, 158, 149);
+	cursor: pointer;
+}
+
+.top a:visited {
+	color: rgb(135, 158, 149);
+	cursor: pointer;
+}
+
+.top a:hover {
+	color: rgb(115, 126, 121);
+	cursor: pointer;
+}
+
+.middle a:link {
+	color: rgb(82, 130, 184);
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.middle a:visited {
+	color: rgb(82, 130, 184);
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.middle a:hover {
+	color: rgb(82, 130, 184);
+	text-decoration: underline;
+	cursor: pointer;
+}
