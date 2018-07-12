@@ -16,5 +16,19 @@ body {
 	background: #fff;
 	padding: 0 45px 20px;
 }
+.content{
+	margin: auto;
+	width:100%
+}
+.links{
+  display: flex;
+}
+.links a{
+	border:3px solid pink;
+	margin :2px;
+}
+p a{
+	text-decoration: none;
+	color: grey;
+}
 
-/* Write all remaining styles here */
