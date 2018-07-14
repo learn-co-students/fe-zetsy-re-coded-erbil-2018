@@ -17,4 +17,10 @@ body {
 	padding: 0 45px 20px;
 }
 
+h1{
+	color: gray;
+}
+.fimg{
+	border:20px solid gray;
+}
 /* Write all remaining styles here */
