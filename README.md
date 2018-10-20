@@ -3,7 +3,7 @@
 ## Objectives
 
 1. Develop HTML and CSS competency
-2. Practice visually interpreting HTML and CSS code from the rendered DOM
+2. Practice visually interpreting HTML and SS code from the rendered DOM
 
 ## Introduction
 
