@@ -16,5 +16,11 @@ body {
 	background: #fff;
 	padding: 0 45px 20px;
 }
-
+div {
+  transition: background-color 0.5s ease;
+  background-color: red;
+}
+div:hover {
+  background-color: green;
+}
 /* Write all remaining styles here */
